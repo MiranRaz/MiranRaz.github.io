@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 This is my portfolio webpage, not used for any money making purpouse.
+=======
+sta ima
+>>>>>>> 57dbf161feb7eeefd44cde6c8dcd6e2b41e57d11
