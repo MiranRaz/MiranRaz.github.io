@@ -10,13 +10,15 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<div id="loader"></div>
 
+	<body class="is-preload">
+		
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
-
 				<!-- Intro -->
-					<div id="intro" class="pic" >
+					<div id="intro" >
+						<a class="image fit" ><img src="images/picintro.png" alt="Welcome" /></a>
 						<h1><a class="active">Welcome to my Portfolio</a></h1>
 						<p><b><i>Work hard at work worth doing </b></i></p>
 						<ul class="actions">
@@ -33,10 +35,11 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="index.html">Portfolio</a></li>
-							<li><a href="#">About me</a></li>
-							<li><a href="#">Tic-Tac-Toe</a></li>
-							<li><a href="#">My First FPS</a></li>
-							<li><a href="#">My Research Papers</a></li>
+							<li><a href="aboutme.html">About me</a></li>
+							<li><a href="tictactoe.html">Tic-Tac-Toe</a></li>
+							<li><a href="firstfps.html">My First FPS</a></li>
+							<li><a href="lacasa.html">La Casa</a></li>
+							<li><a href="researchpapers.html">My Research Papers</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/miran-raznatovic/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
@@ -57,9 +60,9 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2><a href="#">Tic-Tac-Toe</a></h2>
+										<h2><a href="tictactoe.html">Tic-Tac-Toe</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.png" alt="" /></a>
+									<a href="tictactoe.html" class="image fit"><img src="images/pic02.png" alt="" /></a>
 									<p>This is a simple game that we all know, made in .net Framework using C# !</p>
 									<ul class="actions special">
 									</ul>
@@ -67,18 +70,30 @@
 								
 								<article>
 									<header>
-										<h2><a href="#">My First FPS</a></h2>
+										<h2><a href="firstfps.html">My First FPS</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.png" alt="" /></a>
+									<a href="firstfps.html" class="image fit"><img src="images/pic03.png"  height="370px" alt="" /></a>
 									<p>My first FPS game!.<br> Made in Unity using C#.</p>
 								</article>
 								<article>
 									<header>
-										<h2><a href="#">My Research Papers</a></h2>
+										<h2><a>La Casa</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+									<a class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<p>Currently working on this project for restaurants and food delivery.<br>
+										This is a full stack project and technologies used on this projects are <br>
+										.Net Core MVC C#, <br>
+										HTML and CSS with JS and Bootstrap,<br>
+										Microsoft SQL Server with Azure and Plesk.</p>
+								</article>
+								<article>
+									<header>
+										<h2><a href="researchpapers.html">My Research Papers</a></h2>
+									</header>
+									<a href="researchpapers.html" class="image fit"><img src="images/pic04.jpg" height="410px" alt="" /></a>
 									<p>Check out my research papers!</p>
 								</article>
+							
 							</section>
 
 
