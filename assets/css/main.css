@@ -3236,10 +3236,10 @@ input, select, textarea {
 
 /* Wrapper */
 	#wrapper {
-		-moz-transition: opacity 0.5s ease;
-		-webkit-transition: opacity 0.5s ease;
-		-ms-transition: opacity 0.5s ease;
-		transition: opacity 0.5s ease;
+		-moz-transition: opacity 1s ease;
+		-webkit-transition: opacity 1s ease;
+		-ms-transition: opacity 1s ease;
+		transition: opacity 1s ease;
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
@@ -3298,6 +3298,18 @@ input, select, textarea {
 			}
 
 		}
+/*POP-UP*/
+ #popup{
+	 top:-5000px;
+	 animation: drop 1.8s ease forwards;
+
+ }
+ @keyframes drop{
+	 0%{}
+	 70%{transform: translateY(111px)}
+	 100%{transform: translateY(2500px)}
+ }
+
 
 /* Intro */
 
@@ -3433,10 +3445,10 @@ input, select, textarea {
 			-webkit-transform: translateY(2rem);
 			-ms-transform: translateY(2rem);
 			transform: translateY(2rem);
-			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
-			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
-			transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+			-moz-transition: opacity 1s ease, -moz-transform 1s ease, visibility 1s;
+			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease, visibility 1s;
+			-ms-transition: opacity 1s ease, -ms-transform 1s ease, visibility 1s;
+			transition: opacity 1s ease, transform 1s ease, visibility 1s;
 			opacity: 0;
 			visibility: hidden;
 		}
@@ -3575,10 +3587,10 @@ input, select, textarea {
 		}
 
 		#header .logo {
-			-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
-			-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
-			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
-			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+			-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 1s ease, -moz-transform 1s ease, visibility 1s;
+			-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 1s ease, -webkit-transform 1s ease, visibility 1s;
+			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 1s ease, -ms-transform 1s ease, visibility 1s;
+			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 1s ease, transform 1s ease, visibility 1s;
 			pointer-events: auto;
 			border-style: solid;
 			border-color: #ffffff;
@@ -3783,7 +3795,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #5f9fd4;
+			border-top: solid 2px #aeb8c0;
 			margin: 0;
 		}
 
@@ -4574,10 +4586,10 @@ input, select, textarea {
 		-webkit-transform: translateX(20rem);
 		-ms-transform: translateX(20rem);
 		transform: translateX(20rem);
-		-moz-transition: -moz-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-		-webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
+		-moz-transition: -moz-transform 1s ease, box-shadow 1s ease, visibility 1s;
+		-webkit-transition: -webkit-transform 1s ease, box-shadow 1s ease, visibility 1s;
+		-ms-transition: -ms-transform 1s ease, box-shadow 1s ease, visibility 1s;
+		transition: transform 1s ease, box-shadow 1s ease, visibility 1s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
 		background: #ffffff;

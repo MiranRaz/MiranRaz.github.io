@@ -1,1 +1,1 @@
-mr
+This is my portfolio webpage, not used for any money making purpouse.
