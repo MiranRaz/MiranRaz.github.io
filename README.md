@@ -1,2 +1,2 @@
 # MiranRaz.github.io
-This is my portfolio website (only desktop version is currently available, mobile is in the works!)... Made with React, JS, HTML, CSS And Materail UI -> (for now).
+This is my portfolio website. I've used React, HTML/CSS, JS and Material UI(for now) and built with Vite instead of create-react-app.  Currently only desktop version is  available, mobile is in the works!... 
